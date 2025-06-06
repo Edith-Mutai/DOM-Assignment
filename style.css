@@ -1,0 +1,38 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 40px;
+  transition: background-color 0.5s ease;
+}
+
+h1 {
+  font-size: 3rem;
+  transition: color 0.5s ease;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 1.8rem;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  transition: text-transform 0.5s ease;
+}
+
+ul {
+  list-style-type: square;
+  margin-left: 20px;
+  font-size: 1.2rem;
+  color: #2d2d2d;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+li.new-item {
+  animation: highlightFade 2s ease forwards;
+}
+
+@keyframes highlightFade {
+  0% { background-color: #d4edda; }
+  100% { background-color: transparent; }
+}
